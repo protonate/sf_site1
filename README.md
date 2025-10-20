@@ -4,7 +4,6 @@ A stealth startup landing page for a privacy-preserving advertising platform tha
 
 ## Features
 
-- **Stealth Branding**: No mention of "freebid" in visible copy or code
 - **Privacy Sandbox Angle**: Leverages Google's recent failure for credibility
 - **Email Collection**: Secure subscription system with local JSON storage
 - **Modern Stack**: Next.js 14, TypeScript, React, Tailwind CSS
