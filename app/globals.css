@@ -16,3 +16,22 @@
 .animate-background-pulse {
   animation: backgroundPulse 8s ease-in-out infinite;
 }
+
+.chrome-text {
+  background: linear-gradient(
+    180deg,
+    #e0f2ff 0%,
+    #60a5fa 15%,
+    #3b82f6 35%,
+    #2563eb 50%,
+    #3b82f6 65%,
+    #60a5fa 85%,
+    #e0f2ff 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 10px rgba(59, 130, 246, 0.3),
+               0 0 20px rgba(96, 165, 250, 0.2);
+  filter: drop-shadow(0 0 30px rgba(96, 165, 250, 0.4));
+}

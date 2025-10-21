@@ -91,14 +91,14 @@ const LandingPage = () => {
       {/* Hero Section */}
       <section className="relative px-6 py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary-500/10 border border-primary-500/20 text-primary-400 text-sm font-medium mb-8">
-            <span className="w-2 h-2 bg-primary-500 rounded-full mr-2 animate-pulse"></span>
+          <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary-500/20 border border-primary-500/40 text-primary-200 text-sm font-semibold mb-8">
+            <span className="w-2 h-2 bg-primary-400 rounded-full mr-2 animate-pulse"></span>
             Google Privacy Sandbox Failed • We're Building the Solution
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             The Future of
-            <span className="block bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent pb-2">
+            <span className="block chrome-text pb-2">
               Privacy-First Advertising
             </span>
           </h1>
